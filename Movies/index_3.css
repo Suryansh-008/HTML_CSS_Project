@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    background-color: #1B1212;
+    color: white;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 60px;
+    font-weight: 600;
+    
+}
+.main{
+    height: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B1212;
+}
+
+.div1{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://i.pinimg.com/564x/f6/e2/91/f6e2919028fe67d4ba81f1243049f68a.jpg");
+    background-size: cover;
+    /* background-color: rgb(168, 89, 242); */
+    transition: 0.6s linear;
+    font-size: 100px;
+    color: rgb(226, 51, 51);
+    opacity: 1;
+}
+
+.div2{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://cdn.justjared.com/wp-content/uploads/2017/08/gosling-character2/ryan-gosling-blade-runner-2049-posters-03.jpg");
+    background-size: cover;
+    /* background-color: rgb(67, 193, 238); */
+    /* box-shadow: 10px 15px rgb(131, 129, 129); */
+    transition: 0.6s linear;
+    
+}
+.div3{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c5d33171182827.646b08678373a.jpg");
+    background-size: cover;
+    /* background-color: rgb(168, 89, 242); */
+    transition: 0.6s linear;
+}
+.div4{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://i.pinimg.com/564x/f0/0e/f4/f00ef4ef28062a3ffe32c80cfa039c86.jpg");
+    background-size: cover;
+    /* background-color: rgb(67, 193, 238); */
+    /* box-shadow: 10px 15px rgb(131, 129, 129); */
+    transition: 0.6s linear;
+    
+}
+.div5{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://i.pinimg.com/564x/a9/8c/b6/a98cb6d14371d1978ccefb838c505798.jpg");
+    background-size: cover;
+    /* background-color: rgb(67, 193, 238); */
+    /* box-shadow: 10px 15px rgb(131, 129, 129); */
+    transition: 0.6s linear;
+    
+}.div6{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://i.pinimg.com/564x/e0/33/04/e03304bb33abadab63ff17c972abb417.jpg");
+    background-size: cover;
+    /* background-color: rgb(67, 193, 238); */
+    /* box-shadow: 10px 15px rgb(131, 129, 129); */
+    transition: 0.6s linear;
+    
+}
+.div7{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://i.pinimg.com/564x/7a/03/cf/7a03cff15537c5f7aa29f97c11fe9c1b.jpg");
+    background-size: cover;
+    /* background-color: rgb(67, 193, 238); */
+    /* box-shadow: 10px 15px rgb(131, 129, 129); */
+    transition: 0.6s linear;
+    
+}
+.div8{
+    height: 620px;
+    width: 450px;
+    background-image: url("https://i.pinimg.com/564x/78/61/0e/78610e2c1c451aac76ceaad453e5c253.jpg");
+    background-size: cover;
+    /* background-color: rgb(67, 193, 238); */
+    /* box-shadow: 10px 15px rgb(131, 129, 129); */
+    transition: 0.6s linear;
+    
+}
+.div1:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px #48abe0;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px);
+    opacity: 1; */
+}
+
+
+.div2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  rgb(240, 132, 44);
+}
+.div3:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  #e49b0f;
+}
+.div4:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  rgb(192, 185, 179);
+}
+.div5:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  rgb(192, 185, 179);
+}
+.div6:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  rgb(192, 185, 179);
+}
+.div7:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  rgb(192, 185, 179);
+}
+.div8:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    /* opacity: 0.5; */
+    box-shadow: 0px 0px 50px 15px  rgb(192, 185, 179);
+}
+
+li:hover{
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px green,
+                0 0 30px green,
+                0 0 40px green,
+                0 0 55px green,
+                0 0 70px green;
+    transform: scale(1.3);
+}
